@@ -1,0 +1,23 @@
+[
+  {"title":"The big little trivia quiz","category":"A BIT OF EVERYTHING","color":"lilac","icon":"✳","description":"Big brains, random facts, and a few good guesses.","questions":[
+    {"text":"Which planet has the most prominent ring system?","options":["Mars","Saturn","Venus","Earth"],"correct":1,"seconds":20},
+    {"text":"An octopus has how many hearts?","options":["One","Two","Three","Eight"],"correct":2,"seconds":20},
+    {"text":"Which country is home to the city of Kyoto?","options":["Japan","Thailand","South Korea","Vietnam"],"correct":0,"seconds":20},
+    {"text":"What is the only even prime number?","options":["Zero","Four","Six","Two"],"correct":3,"seconds":15},
+    {"text":"What gives plants their green color?","options":["Melanin","Chlorophyll","Iron","Keratin"],"correct":1,"seconds":20}
+  ]},
+  {"title":"How online are you?","category":"TECH & INTERNET","color":"peach","icon":"↗","description":"Put your digital know-how to the test.","questions":[
+    {"text":"What does the H in HTML stand for?","options":["Hyper","Home","High","Host"],"correct":0,"seconds":20},
+    {"text":"Which of these is a programming language?","options":["Cobra Kai","Python","Gecko","Salamander"],"correct":1,"seconds":15},
+    {"text":"What does a browser use HTTPS for?","options":["Taking screenshots","Editing videos","Encrypting the connection","Increasing screen brightness"],"correct":2,"seconds":20},
+    {"text":"How many bits are in a byte?","options":["Two","Four","Sixteen","Eight"],"correct":3,"seconds":15},
+    {"text":"Which device routes traffic between networks?","options":["A keyboard","A router","A monitor","A microphone"],"correct":1,"seconds":20}
+  ]},
+  {"title":"A curious little planet","category":"NATURE & SCIENCE","color":"mint","icon":"◎","description":"Explore the wonderfully weird world around us.","questions":[
+    {"text":"What is the largest ocean on Earth?","options":["Atlantic","Indian","Arctic","Pacific"],"correct":3,"seconds":20},
+    {"text":"Which animal is a mammal?","options":["Shark","Dolphin","Octopus","Penguin"],"correct":1,"seconds":20},
+    {"text":"What is water’s chemical formula?","options":["CO₂","O₂","H₂O","NaCl"],"correct":2,"seconds":15},
+    {"text":"Which gas do plants absorb during photosynthesis?","options":["Carbon dioxide","Helium","Hydrogen","Neon"],"correct":0,"seconds":20},
+    {"text":"What is the closest star to Earth?","options":["Sirius","Polaris","Proxima Centauri","The Sun"],"correct":3,"seconds":20}
+  ]}
+]

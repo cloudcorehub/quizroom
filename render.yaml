@@ -1,0 +1,17 @@
+# A free, single-instance preview. See DEPLOYMENT.md before inviting players.
+services:
+  - type: web
+    name: cloudcorehub-quizroom
+    runtime: node
+    plan: free
+    branch: main
+    numInstances: 1
+    buildCommand: npm test
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeployTrigger: off
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: NODE_ENV
+        value: production

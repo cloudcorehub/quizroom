@@ -1,0 +1,28 @@
+{
+  "name": "quizroom",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudcorehub/quizroom.git"
+  },
+  "bugs": "https://github.com/cloudcorehub/quizroom/issues",
+  "homepage": "https://github.com/cloudcorehub/quizroom#readme",
+  "type": "module",
+  "description": "A free, open-source multiplayer quiz game you can self-host",
+  "files": [
+    "server.mjs",
+    "public/",
+    "test/",
+    "README.md",
+    "DEPLOYMENT.md",
+    "render.yaml",
+    ".node-version",
+    "CONTRIBUTING.md",
+    "REVERSE_ENGINEERING.md",
+    "LICENSE"
+  ],
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "test": "node --test test/*.test.mjs" }
+}
